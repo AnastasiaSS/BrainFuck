@@ -1,4 +1,7 @@
-package interpreter;
+package java;
+
+import resources.Context;
+import resources.Interpreter;
 
 import java.util.Date;
 
@@ -9,8 +12,8 @@ public class Main {
     public static void main(String[] args){
         Interpreter interpreter=Interpreter.getInterpreter();
         interpreter.setContext(new Context("++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>."));
-        //interpreter.setContext(new Context(",>++++++[<-------->-],>++++++[<-------->-],>++++++[<-------->-]<<[>>+>>+<<<<-]>[>+>>-<<<-]<<[>>+<<-]>>[>]>>>>++++++[<<<++++++++>>>-]<<<."));
-        //interpreter.setContext(new Context("-[--->+<]>-.[---->+++++<]>-.+.++++++++++.+[---->+<]>+++.-[--->++<]>-.++++++++++.+[---->+<]>+++.[-->+++++++<]>.++.-------------.[--->+<]>---..+++++.-[---->+<]>++.+[->+++<]>.++++++++++++..---.[-->+<]>--------."));
+        //resources.setContext(new Context(",>++++++[<-------->-],>++++++[<-------->-],>++++++[<-------->-]<<[>>+>>+<<<<-]>[>+>>-<<<-]<<[>>+<<-]>>[>]>>>>++++++[<<<++++++++>>>-]<<<."));
+        //resources.setContext(new Context("-[--->+<]>-.[---->+++++<]>-.+.++++++++++.+[---->+<]>+++.-[--->++<]>-.++++++++++.+[---->+<]>+++.[-->+++++++<]>.++.-------------.[--->+<]>---..+++++.-[---->+<]>++.+[->+++<]>.++++++++++++..---.[-->+<]>--------."));
         long time=new Date().getTime();
         interpreter.interpret();
         System.out.println();

@@ -1,4 +1,4 @@
-package interpreter;
+package resources;
 
 /**
  * Created by Настя on 17.06.2017.
@@ -9,7 +9,7 @@ public class LeftBracketExpression extends AbstractExpression{
     @Override
     public void interpretContext(Context c){
         Interpreter interpreter=Interpreter.getInterpreter();
-        //interpreter.cycleOperation();
+        //resources.cycleOperation();
         cycleOperation(c);
     }
     private void cycleOperation(Context c){

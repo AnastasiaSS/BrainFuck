@@ -1,4 +1,4 @@
-package interpreter;
+package resources;
 
 /**
  * Created by Настя on 17.06.2017.

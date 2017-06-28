@@ -1,4 +1,4 @@
-package interpreter;
+package resources;
 
 import java.util.Scanner;
 
