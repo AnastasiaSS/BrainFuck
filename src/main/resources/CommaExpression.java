@@ -1,11 +1,11 @@
-package resources;
+package main.resources;
 
 import java.util.Scanner;
 
 /**
  * Created by Настя on 17.06.2017.
  */
-public class CommaExpression extends AbstractExpression{
+public class CommaExpression extends AbstractExpression {
     public CommaExpression(){}
     @Override
     public void interpretContext(Context c){

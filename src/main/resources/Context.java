@@ -1,4 +1,4 @@
-package resources;
+package main.resources;
 
 /**
  * Created by Настя on 17.06.2017.

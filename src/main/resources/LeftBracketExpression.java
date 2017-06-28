@@ -1,9 +1,13 @@
-package resources;
+package main.resources;
+
+import main.resources.AbstractExpression;
+import main.resources.Context;
+import main.resources.Interpreter;
 
 /**
  * Created by Настя on 17.06.2017.
  */
-public class LeftBracketExpression extends AbstractExpression{
+public class LeftBracketExpression extends AbstractExpression {
     //todo fix
     LeftBracketExpression(){}
     @Override

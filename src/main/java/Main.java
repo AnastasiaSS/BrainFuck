@@ -1,7 +1,7 @@
-package java;
+package main.java;
 
-import resources.Context;
-import resources.Interpreter;
+import main.resources.Context;
+import main.resources.Interpreter;
 
 import java.util.Date;
 
