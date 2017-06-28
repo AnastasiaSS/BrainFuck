@@ -12,8 +12,6 @@ public class Main {
     public static void main(String[] args){
         Interpreter interpreter=Interpreter.getInterpreter();
         interpreter.setContext(new Context("++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>."));
-        //resources.setContext(new Context(",>++++++[<-------->-],>++++++[<-------->-],>++++++[<-------->-]<<[>>+>>+<<<<-]>[>+>>-<<<-]<<[>>+<<-]>>[>]>>>>++++++[<<<++++++++>>>-]<<<."));
-        //resources.setContext(new Context("-[--->+<]>-.[---->+++++<]>-.+.++++++++++.+[---->+<]>+++.-[--->++<]>-.++++++++++.+[---->+<]>+++.[-->+++++++<]>.++.-------------.[--->+<]>---..+++++.-[---->+<]>++.+[->+++<]>.++++++++++++..---.[-->+<]>--------."));
         long time=new Date().getTime();
         interpreter.interpret();
         System.out.println();
